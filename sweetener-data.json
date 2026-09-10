@@ -16,7 +16,7 @@
     "EFSA": "Approved",
     "Trade_Names": "Sunett",
     "Common_Misspellings": "Acesulfame",
-    "Regex_Search": "acesulfam|ace-k|e950",
+    "Regex_Search": "acesulfam|ace-k|\\be\\s?950\\b",
     "Notes": "High intensity"
   },
   {
@@ -36,7 +36,7 @@
     "EFSA": "Approved",
     "Trade_Names": "NutraSweet",
     "Common_Misspellings": "Aspartam",
-    "Regex_Search": "aspartame|aspartam|e951",
+    "Regex_Search": "aspartame|aspartam|\\be\\s?951\\b",
     "Notes": "PKU warning"
   },
   {
@@ -56,7 +56,7 @@
     "EFSA": "Approved",
     "Trade_Names": "",
     "Common_Misspellings": "Cyclamat",
-    "Regex_Search": "cyclamate|cyklamat|e952",
+    "Regex_Search": "cyclamate|cyklamat|\\be\\s?952\\b",
     "Notes": ""
   },
   {
@@ -76,7 +76,7 @@
     "EFSA": "Approved",
     "Trade_Names": "",
     "Common_Misspellings": "Sacharin",
-    "Regex_Search": "saccharin|sakkarin|e954",
+    "Regex_Search": "saccharin|sakkarin|\\be\\s?954\\b",
     "Notes": ""
   },
   {
@@ -96,7 +96,7 @@
     "EFSA": "Approved",
     "Trade_Names": "Splenda",
     "Common_Misspellings": "",
-    "Regex_Search": "sucralose|e955",
+    "Regex_Search": "sucralose|\\be\\s?955\\b",
     "Notes": ""
   },
   {
@@ -116,7 +116,7 @@
     "EFSA": "Approved",
     "Trade_Names": "",
     "Common_Misspellings": "",
-    "Regex_Search": "thaumatin|e957",
+    "Regex_Search": "thaumatin|\\be\\s?957\\b",
     "Notes": ""
   },
   {
@@ -136,7 +136,7 @@
     "EFSA": "Approved",
     "Trade_Names": "",
     "Common_Misspellings": "",
-    "Regex_Search": "glycyrrhizin|e958",
+    "Regex_Search": "glycyrrhizin|\\be\\s?958\\b",
     "Notes": ""
   },
   {
@@ -156,7 +156,7 @@
     "EFSA": "Approved",
     "Trade_Names": "",
     "Common_Misspellings": "",
-    "Regex_Search": "nhdc|neohesperidine|e959",
+    "Regex_Search": "nhdc|neohesperidine|\\be\\s?959\\b",
     "Notes": ""
   },
   {
@@ -176,7 +176,7 @@
     "EFSA": "Approved",
     "Trade_Names": "Pure Via",
     "Common_Misspellings": "Steviol",
-    "Regex_Search": "stevia|steviol|reb a|e960",
+    "Regex_Search": "stevia|steviol|reb a|\\be\\s?960\\b",
     "Notes": ""
   },
   {
@@ -196,7 +196,7 @@
     "EFSA": "Approved",
     "Trade_Names": "",
     "Common_Misspellings": "",
-    "Regex_Search": "neotame|e961",
+    "Regex_Search": "neotame|\\be\\s?961\\b",
     "Notes": ""
   },
   {
@@ -216,7 +216,7 @@
     "EFSA": "Approved",
     "Trade_Names": "",
     "Common_Misspellings": "",
-    "Regex_Search": "e962",
+    "Regex_Search": "\\be\\s?962\\b",
     "Notes": ""
   },
   {
@@ -236,7 +236,7 @@
     "EFSA": "Approved",
     "Trade_Names": "",
     "Common_Misspellings": "",
-    "Regex_Search": "advantame|e969",
+    "Regex_Search": "advantame|\\be\\s?969\\b",
     "Notes": ""
   },
   {
@@ -256,7 +256,7 @@
     "EFSA": "Approved",
     "Trade_Names": "",
     "Common_Misspellings": "",
-    "Regex_Search": "sorbitol|e420",
+    "Regex_Search": "sorbitol|\\be\\s?420\\b",
     "Notes": ""
   },
   {
@@ -276,7 +276,7 @@
     "EFSA": "Approved",
     "Trade_Names": "",
     "Common_Misspellings": "",
-    "Regex_Search": "mannitol|e421",
+    "Regex_Search": "mannitol|\\be\\s?421\\b",
     "Notes": ""
   },
   {
@@ -296,7 +296,7 @@
     "EFSA": "Approved",
     "Trade_Names": "",
     "Common_Misspellings": "",
-    "Regex_Search": "isomalt|e953",
+    "Regex_Search": "isomalt|\\be\\s?953\\b",
     "Notes": ""
   },
   {
@@ -316,7 +316,7 @@
     "EFSA": "Approved",
     "Trade_Names": "",
     "Common_Misspellings": "",
-    "Regex_Search": "maltitol|e965",
+    "Regex_Search": "maltitol|\\be\\s?965\\b",
     "Notes": ""
   },
   {
@@ -336,7 +336,7 @@
     "EFSA": "Approved",
     "Trade_Names": "",
     "Common_Misspellings": "",
-    "Regex_Search": "lactitol|e966",
+    "Regex_Search": "lactitol|\\be\\s?966\\b",
     "Notes": ""
   },
   {
@@ -356,7 +356,7 @@
     "EFSA": "Approved",
     "Trade_Names": "",
     "Common_Misspellings": "",
-    "Regex_Search": "xylitol|e967",
+    "Regex_Search": "xylitol|\\be\\s?967\\b",
     "Notes": ""
   },
   {
@@ -376,7 +376,7 @@
     "EFSA": "Approved",
     "Trade_Names": "Sukrin",
     "Common_Misspellings": "Erythritol",
-    "Regex_Search": "erythritol|erytritol|e968",
+    "Regex_Search": "erythritol|erytritol|\\be\\s?968\\b",
     "Notes": ""
   },
   {
@@ -396,7 +396,7 @@
     "EFSA": "Approved",
     "Trade_Names": "",
     "Common_Misspellings": "",
-    "Regex_Search": "polydextrose|e1200",
+    "Regex_Search": "polydextrose|\\be\\s?1200\\b",
     "Notes": ""
   },
   {
