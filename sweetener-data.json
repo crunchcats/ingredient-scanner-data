@@ -18,6 +18,7 @@
     "Trade_Names": "Sunett",
     "Common_Misspellings": "Acesulfame",
     "Regex_Search": "acesulfam|ace-k|\\be\\s?950\\b",
+    "Regex_Exclude": "",
     "Notes": "High intensity Heat stable."
   },
   {
@@ -39,6 +40,7 @@
     "Trade_Names": "NutraSweet",
     "Common_Misspellings": "Aspartam",
     "Regex_Search": "aspartame|aspartam|\\be\\s?951\\b",
+    "Regex_Exclude": "",
     "Notes": "PKU warning. Limited heat stability. CONFLICT: 2026 master CSV lists Sweetness_vs_Sugar=180 (vs 200 here) and Kcal_g=0 (vs 4 here) — not applied, flagged for review."
   },
   {
@@ -60,6 +62,7 @@
     "Trade_Names": "",
     "Common_Misspellings": "Cyclamat",
     "Regex_Search": "cyclamate|cyklamat|\\be\\s?952\\b",
+    "Regex_Exclude": "",
     "Notes": "Heat stable."
   },
   {
@@ -81,6 +84,7 @@
     "Trade_Names": "",
     "Common_Misspellings": "Sacharin",
     "Regex_Search": "saccharin|sakkarin|\\be\\s?954\\b",
+    "Regex_Exclude": "",
     "Notes": "Heat stable. CONFLICT: 2026 master CSV lists Sweetness_vs_Sugar=300 (vs 350 here) — not applied, flagged for review."
   },
   {
@@ -102,6 +106,7 @@
     "Trade_Names": "Splenda",
     "Common_Misspellings": "",
     "Regex_Search": "sucralose|\\be\\s?955\\b",
+    "Regex_Exclude": "",
     "Notes": "Heat stable."
   },
   {
@@ -123,6 +128,7 @@
     "Trade_Names": "",
     "Common_Misspellings": "",
     "Regex_Search": "thaumatin|\\be\\s?957\\b",
+    "Regex_Exclude": "",
     "Notes": "Source lists sweetness as \"2000+\" (approximate/lower bound). Heat stable."
   },
   {
@@ -144,6 +150,7 @@
     "Trade_Names": "",
     "Common_Misspellings": "",
     "Regex_Search": "glycyrrhizin|\\be\\s?958\\b",
+    "Regex_Exclude": "",
     "Notes": "Heat stable."
   },
   {
@@ -165,6 +172,7 @@
     "Trade_Names": "",
     "Common_Misspellings": "",
     "Regex_Search": "nhdc|neohesperidine|\\be\\s?959\\b",
+    "Regex_Exclude": "",
     "Notes": "Heat stable."
   },
   {
@@ -186,6 +194,7 @@
     "Trade_Names": "Pure Via",
     "Common_Misspellings": "Steviol",
     "Regex_Search": "stevia|steviol|reb a|\\be\\s?960\\b",
+    "Regex_Exclude": "",
     "Notes": "Heat stable."
   },
   {
@@ -207,6 +216,7 @@
     "Trade_Names": "",
     "Common_Misspellings": "",
     "Regex_Search": "neotame|\\be\\s?961\\b",
+    "Regex_Exclude": "",
     "Notes": "Heat stable."
   },
   {
@@ -228,6 +238,7 @@
     "Trade_Names": "",
     "Common_Misspellings": "",
     "Regex_Search": "\\be\\s?962\\b",
+    "Regex_Exclude": "",
     "Notes": "Heat stable."
   },
   {
@@ -249,6 +260,7 @@
     "Trade_Names": "",
     "Common_Misspellings": "",
     "Regex_Search": "advantame|\\be\\s?969\\b",
+    "Regex_Exclude": "",
     "Notes": "Source lists sweetness as \"20000+\" (approximate/lower bound). Heat stable."
   },
   {
@@ -270,6 +282,7 @@
     "Trade_Names": "",
     "Common_Misspellings": "",
     "Regex_Search": "sorbitol|\\be\\s?420\\b",
+    "Regex_Exclude": "",
     "Notes": "Heat stable. CONFLICT: 2026 master CSV lists Sweetness_vs_Sugar=0.55 (vs 0.6 here) — not applied, flagged for review."
   },
   {
@@ -291,6 +304,7 @@
     "Trade_Names": "",
     "Common_Misspellings": "",
     "Regex_Search": "mannitol|\\be\\s?421\\b",
+    "Regex_Exclude": "",
     "Notes": "Heat stable."
   },
   {
@@ -312,6 +326,7 @@
     "Trade_Names": "",
     "Common_Misspellings": "",
     "Regex_Search": "isomalt|\\be\\s?953\\b",
+    "Regex_Exclude": "",
     "Notes": "Heat stable."
   },
   {
@@ -333,6 +348,7 @@
     "Trade_Names": "",
     "Common_Misspellings": "",
     "Regex_Search": "maltitol|\\be\\s?965\\b",
+    "Regex_Exclude": "",
     "Notes": "Heat stable."
   },
   {
@@ -354,6 +370,7 @@
     "Trade_Names": "",
     "Common_Misspellings": "",
     "Regex_Search": "lactitol|\\be\\s?966\\b",
+    "Regex_Exclude": "",
     "Notes": "Heat stable."
   },
   {
@@ -375,6 +392,7 @@
     "Trade_Names": "",
     "Common_Misspellings": "",
     "Regex_Search": "xylitol|\\be\\s?967\\b",
+    "Regex_Exclude": "",
     "Notes": "Heat stable."
   },
   {
@@ -396,6 +414,7 @@
     "Trade_Names": "Sukrin",
     "Common_Misspellings": "Erythritol",
     "Regex_Search": "erythritol|erytritol|\\be\\s?968\\b",
+    "Regex_Exclude": "",
     "Notes": "Heat stable. CONFLICT: 2026 master CSV lists Glycemic_Impact=\"Very Low\" (from \"Meget lav\") vs \"0\" here — not applied, flagged for review."
   },
   {
@@ -417,6 +436,7 @@
     "Trade_Names": "",
     "Common_Misspellings": "",
     "Regex_Search": "polydextrose|\\be\\s?1200\\b",
+    "Regex_Exclude": "",
     "Notes": "Heat stable."
   },
   {
@@ -438,6 +458,7 @@
     "Trade_Names": "",
     "Common_Misspellings": "",
     "Regex_Search": "allulose|psicose",
+    "Regex_Exclude": "",
     "Notes": "Heat stable."
   },
   {
@@ -459,6 +480,7 @@
     "Trade_Names": "",
     "Common_Misspellings": "",
     "Regex_Search": "tagatose",
+    "Regex_Exclude": "",
     "Notes": "Heat stable."
   },
   {
@@ -480,6 +502,7 @@
     "Trade_Names": "",
     "Common_Misspellings": "",
     "Regex_Search": "monk fruit|mogroside",
+    "Regex_Exclude": "",
     "Notes": "Heat stable."
   },
   {
@@ -501,6 +524,7 @@
     "Trade_Names": "",
     "Common_Misspellings": "",
     "Regex_Search": "maltodextrin|maltodekstrin|dextrin",
+    "Regex_Exclude": "",
     "Notes": "Related starch-derivative labels (Modified Starch, Hydrolyzed Starch, Pregelatinized Starch, Rice Solids, Corn Solids) are listed as synonyms but left out of Regex_Search to avoid false positives on non-sweetening starch uses. Heat stable."
   },
   {
@@ -522,6 +546,7 @@
     "Trade_Names": "",
     "Common_Misspellings": "",
     "Regex_Search": "inulin|chicory",
+    "Regex_Exclude": "",
     "Notes": "Heat stable."
   },
   {
@@ -543,6 +568,7 @@
     "Trade_Names": "",
     "Common_Misspellings": "",
     "Regex_Search": "glukosesirup|glucose syrup|corn syrup|majssirup|corn sugar|corn sweetener",
+    "Regex_Exclude": "",
     "Notes": "GI 100 (source: Klasse \"Fuld energi\")."
   },
   {
@@ -564,6 +590,7 @@
     "Trade_Names": "",
     "Common_Misspellings": "",
     "Regex_Search": "fruktosesirup|fructose syrup",
+    "Regex_Exclude": "",
     "Notes": "GI 25."
   },
   {
@@ -573,7 +600,7 @@
     "E_Number": "",
     "INS": null,
     "Category": "Syrup",
-    "Synonyms": "HFCS;High Fructose Corn Syrup;High-Fructose Corn Syrup;Majsfruktosesirup;Fructose-Glucose Syrup;Glucose-Fructose Syrup;Glucose-Fructose Sirup;Fruktose-Glukose Sirup;Isoglucose;Isoglukose",
+    "Synonyms": "HFCS;High Fructose Corn Syrup;High-Fructose Corn Syrup;Majsfruktosesirup;Fructose-Glucose Syrup;Glucose-Fructose Syrup;Glucose-Fructose Sirup;Fruktose-Glukose Sirup;Isoglucose;Isoglukose;Glukose-fruktosesirup;Fruktose-glukosesirup",
     "CAS": "",
     "Sweetness_vs_Sugar": 1,
     "Glycemic_Impact": "High",
@@ -584,7 +611,8 @@
     "EFSA": "",
     "Trade_Names": "",
     "Common_Misspellings": "",
-    "Regex_Search": "hfcs|high[- ]fructose corn syrup|isoglucose|isoglukose|majsfruktosesirup|fructose-glucose syrup|glucose-fructose (syrup|sirup)|fruktose-glukose sirup",
+    "Regex_Search": "hfcs|high[- ]fructose corn syrup|isoglucose|isoglukose|majsfruktosesirup|fructose-glucose syrup|glucose-fructose (syrup|sirup)|fruktose-glukose ?sirup|glukose-fruktose ?sirup",
+    "Regex_Exclude": "",
     "Notes": "GI 80."
   },
   {
@@ -606,6 +634,7 @@
     "Trade_Names": "",
     "Common_Misspellings": "",
     "Regex_Search": "agavesirup|agave syrup|agave nectar",
+    "Regex_Exclude": "",
     "Notes": "GI 25."
   },
   {
@@ -627,6 +656,7 @@
     "Trade_Names": "",
     "Common_Misspellings": "",
     "Regex_Search": "ahornsirup|maple syrup",
+    "Regex_Exclude": "",
     "Notes": "GI 54."
   },
   {
@@ -648,6 +678,7 @@
     "Trade_Names": "",
     "Common_Misspellings": "",
     "Regex_Search": "yacon sirup|yacon syrup",
+    "Regex_Exclude": "",
     "Notes": "GI 4. CONFLICT: master CSV also lists a \"Yacon Syrup\" row (Naturligt sødestof section) with different figures — sweetness 0.5, Very Low, GI 1, 1.4 kcal/g — vs. this entry's Yacon Sirup figures (0.4, Low, GI 4, 1.5 kcal/g). Not reconciled."
   },
   {
@@ -669,6 +700,7 @@
     "Trade_Names": "",
     "Common_Misspellings": "",
     "Regex_Search": "ris sirup|rice syrup|brown rice syrup|brun ris sirup",
+    "Regex_Exclude": "",
     "Notes": "GI 98."
   },
   {
@@ -690,6 +722,7 @@
     "Trade_Names": "",
     "Common_Misspellings": "",
     "Regex_Search": "daddelsirup|date syrup",
+    "Regex_Exclude": "",
     "Notes": "GI 55."
   },
   {
@@ -711,6 +744,7 @@
     "Trade_Names": "",
     "Common_Misspellings": "",
     "Regex_Search": "melasse|molasses|blackstrap molasses|treacle",
+    "Regex_Exclude": "",
     "Notes": "GI 55."
   },
   {
@@ -732,6 +766,7 @@
     "Trade_Names": "",
     "Common_Misspellings": "",
     "Regex_Search": "honning|honey|wildflower honey",
+    "Regex_Exclude": "honeydew|honningmelon",
     "Notes": "GI 60. Generic/blended honey; see Acacia/Clover/Manuka for named varietals."
   },
   {
@@ -753,6 +788,7 @@
     "Trade_Names": "",
     "Common_Misspellings": "",
     "Regex_Search": "akaciehonning|acacia honey",
+    "Regex_Exclude": "",
     "Notes": "GI 40."
   },
   {
@@ -774,6 +810,7 @@
     "Trade_Names": "",
     "Common_Misspellings": "",
     "Regex_Search": "kløverhonning|clover honey",
+    "Regex_Exclude": "",
     "Notes": "GI 70."
   },
   {
@@ -795,6 +832,7 @@
     "Trade_Names": "",
     "Common_Misspellings": "",
     "Regex_Search": "manuka honning|manuka honey",
+    "Regex_Exclude": "",
     "Notes": "GI 55."
   },
   {
@@ -816,6 +854,7 @@
     "Trade_Names": "",
     "Common_Misspellings": "",
     "Regex_Search": "kokossukker|coconut sugar|palmesukker|palm sugar",
+    "Regex_Exclude": "",
     "Notes": "GI 50. Palm sugar is a related but distinct product, grouped here for detection purposes."
   },
   {
@@ -837,6 +876,7 @@
     "Trade_Names": "",
     "Common_Misspellings": "",
     "Regex_Search": "dadelsukker|date sugar",
+    "Regex_Exclude": "",
     "Notes": "GI 55."
   },
   {
@@ -858,6 +898,7 @@
     "Trade_Names": "",
     "Common_Misspellings": "",
     "Regex_Search": "rørsukker|cane sugar|cane juice|evaporated cane (juice|syrup)",
+    "Regex_Exclude": "",
     "Notes": "GI 65."
   },
   {
@@ -879,6 +920,7 @@
     "Trade_Names": "",
     "Common_Misspellings": "",
     "Regex_Search": "muscovado",
+    "Regex_Exclude": "",
     "Notes": "GI 65."
   },
   {
@@ -900,6 +942,7 @@
     "Trade_Names": "",
     "Common_Misspellings": "",
     "Regex_Search": "demerara",
+    "Regex_Exclude": "",
     "Notes": "GI 65."
   },
   {
@@ -921,6 +964,7 @@
     "Trade_Names": "",
     "Common_Misspellings": "",
     "Regex_Search": "brun farin|brunt sukker|brown sugar",
+    "Regex_Exclude": "",
     "Notes": "GI 70."
   },
   {
@@ -930,7 +974,7 @@
     "E_Number": "",
     "INS": null,
     "Category": "Sugar",
-    "Synonyms": "Sukker;Sukrose;Saccharose;Sucrose;Bordsukker;Hvidt sukker;Råsukker;Flormelis;Perlesukker;Beet Sugar;Sugar Beet Syrup;Beet Syrup;Liquid Sugar;Flydende Sukker;Fondant;Fondant Sugar;Sugar Crystals;Sugar Solids",
+    "Synonyms": "Socker;Sukker;Sukrose;Saccharose;Sucrose;Bordsukker;Hvidt sukker;Råsukker;Flormelis;Perlesukker;Beet Sugar;Sugar Beet Syrup;Beet Syrup;Liquid Sugar;Flydende Sukker;Fondant;Fondant Sugar;Sugar Crystals;Sugar Solids",
     "CAS": "",
     "Sweetness_vs_Sugar": 1,
     "Glycemic_Impact": "Moderate",
@@ -941,7 +985,8 @@
     "EFSA": "",
     "Trade_Names": "",
     "Common_Misspellings": "",
-    "Regex_Search": "sukker|sukrose|saccharose|sucrose|bordsukker|hvidt sukker|råsukker|flormelis|perlesukker|beet sugar|sugar beet syrup|beet syrup|flydende sukker|liquid sugar|fondant|sugar crystals|sugar solids",
+    "Regex_Search": "sukker|sukrose|saccharose|sucrose|bordsukker|hvidt sukker|råsukker|flormelis|perlesukker|beet sugar|sugar beet syrup|beet syrup|flydende sukker|liquid sugar|fondant|sugar crystals|sugar solids|socker|\\bsugar\\b",
+    "Regex_Exclude": "sukkerarter|sukkerfri|sukkerindhold|sukkeralkohol|sukkerkulør|sukkermajs|sukkerært|blodsukker|(uden|ingen|intet) (tilsat )?sukker|uden tilsætning af sukker|sockerarter|sockerfri|sockeralkohol|sockerkulör|sockermajs|sockerärt|blodsocker|(utan|inget) (tillsatt )?socker|sugar[- ]free|no added sugars?|without added sugars?|blood sugar|sugar alcohols?|sugar snap",
     "Notes": "No dedicated nutrition row in this CSV pass; chemically table sugar (sucrose), typically ~4 kcal/g, GI ~65 — cross-check against the master sweetener list's Sukrose row when that sync runs. GI 65. Heat stable."
   },
   {
@@ -963,6 +1008,7 @@
     "Trade_Names": "",
     "Common_Misspellings": "",
     "Regex_Search": "glukose|glucose|dextrose|druesukker|glucose solids|liquid glucose",
+    "Regex_Exclude": "",
     "Notes": "No dedicated nutrition row in this CSV pass; see the master sweetener list's Glukose/Dextrose rows for reference values (note: those two rows use different figures for what's chemically the same sugar — flagged, not reconciled here). GI 100. CONFLICT: source gives two sweetness values for this merged entry — Glukose=0.7, Dextrose=1.15 (GI and kcal/g agree at 100 and 4). Sweetness_vs_Sugar left blank pending a decision (e.g. split into two entries)."
   },
   {
@@ -984,6 +1030,7 @@
     "Trade_Names": "",
     "Common_Misspellings": "",
     "Regex_Search": "fruktose|fructose|fruit sugar|frugtsukker|crystalline fructose",
+    "Regex_Exclude": "",
     "Notes": "No dedicated nutrition row in this CSV pass; see the master sweetener list's Fruktose row for reference values. GI 25 (matches Fruktosesirup/SG002). Heat stable."
   },
   {
@@ -1005,6 +1052,7 @@
     "Trade_Names": "",
     "Common_Misspellings": "",
     "Regex_Search": "maltose|malt sugar|malt extract|maltekstrakt|barley malt|malted barley|malt syrup|malted syrup|rice malt syrup|ris malt sirup",
+    "Regex_Exclude": "",
     "Notes": "No dedicated nutrition row in this CSV pass; see the master sweetener list's Maltose row for reference values. GI 105."
   },
   {
@@ -1026,6 +1074,7 @@
     "Trade_Names": "",
     "Common_Misspellings": "",
     "Regex_Search": "laktose|lactose|milk sugar|vallepulver|whey powder",
+    "Regex_Exclude": "laktosefri|lactose[- ]free",
     "Notes": "No dedicated nutrition row in this CSV pass; see the master sweetener list's Laktose row for reference values. Whey powder is a dairy byproduct rather than pure lactose, included here as a related label. GI 45."
   },
   {
@@ -1046,7 +1095,8 @@
     "EFSA": "",
     "Trade_Names": "",
     "Common_Misspellings": "",
-    "Regex_Search": "fruit (juice )?concentrate|frugtkoncentrat|frugtsaftkoncentrat|juicekoncentrat|koncentrat|date paste|daddelpasta",
+    "Regex_Search": "fruit (juice )?concentrate|frugtkoncentrat|frugtsaftkoncentrat|juicekoncentrat|date paste|daddelpasta",
+    "Regex_Exclude": "",
     "Notes": "Composition/GI varies by fruit; no single nutrition value in source. Flagged as an added-sugar label for scanning purposes, not as a specific sugar."
   },
   {
@@ -1068,6 +1118,7 @@
     "Trade_Names": "",
     "Common_Misspellings": "",
     "Regex_Search": "invert (sugar|syrup)|invertsukker|partially inverted sugar|golden syrup",
+    "Regex_Exclude": "",
     "Notes": "No source nutrition row; chemically similar to hydrolyzed table sugar (~4 kcal/g) but that figure isn't confirmed against this CSV."
   },
   {
@@ -1077,7 +1128,7 @@
     "E_Number": "",
     "INS": null,
     "Category": "Syrup",
-    "Synonyms": "Sirup;Syrup;Cane Syrup;Sugar Syrup;Sweetener Blend;Sweetening Syrup;Caramelised Sugar;Karamelliseret Sukker;Caramel Syrup;Karamelsirup;Bakers Syrup;Bagerisirup",
+    "Synonyms": "Cane Syrup;Sugar Syrup;Sweetening Syrup;Caramelised Sugar;Karamelliseret Sukker;Caramel Syrup;Karamelsirup;Bakers Syrup;Bagerisirup",
     "CAS": "",
     "Sweetness_vs_Sugar": null,
     "Glycemic_Impact": "",
@@ -1088,8 +1139,9 @@
     "EFSA": "",
     "Trade_Names": "",
     "Common_Misspellings": "",
-    "Regex_Search": "cane syrup|sugar syrup|sweetener blend|sweetening syrup|caramelised sugar|karamelliseret sukker|caramel syrup|karamelsirup|bakers syrup|bagerisirup",
-    "Notes": "Catch-all for generic/unspecified sugar-syrup labels with no dedicated nutrition row. Bare \"Sirup\"/\"Syrup\" deliberately left out of Regex_Search — too generic, would false-positive on unrelated products; kept in Synonyms only."
+    "Regex_Search": "cane syrup|sugar syrup|sweetening syrup|caramelised sugar|karamelliseret sukker|caramel syrup|karamelsirup|bakers syrup|bagerisirup",
+    "Regex_Exclude": "",
+    "Notes": "Catch-all for generic/unspecified sugar-syrup labels with no dedicated nutrition row. Bare \"Sirup\"/\"Syrup\" are deliberately not listed anywhere: the apps match Synonyms as substrings, so either would flag every syrup on every label. \"Sweetener Blend\" removed for the same reason: it names intense-sweetener blends as often as sugar ones."
   },
   {
     "ID": "SW026",
@@ -1110,6 +1162,7 @@
     "Trade_Names": "",
     "Common_Misspellings": "",
     "Regex_Search": "alitam",
+    "Regex_Exclude": "",
     "Notes": "Sweetness_vs_Sugar missing from source CSV (commonly cited elsewhere as ~2000x sucrose) — left blank rather than assumed."
   },
   {
@@ -1131,6 +1184,7 @@
     "Trade_Names": "",
     "Common_Misspellings": "",
     "Regex_Search": "brazzein",
+    "Regex_Exclude": "",
     "Notes": "Heat stable."
   },
   {
@@ -1152,6 +1206,7 @@
     "Trade_Names": "",
     "Common_Misspellings": "",
     "Regex_Search": "fruktooligosakkarider|fructooligosaccharide|\\bfos\\b",
+    "Regex_Exclude": "",
     "Notes": "Heat stable. Source lists this separately from Oligofructose (SW030), also synonym \"FOS\" — the two may be the same/overlapping ingredient under different Danish labels; kept as two entries per source, flagged for review."
   },
   {
@@ -1173,6 +1228,7 @@
     "Trade_Names": "",
     "Common_Misspellings": "",
     "Regex_Search": "glycerol|\\be\\s?422\\b",
+    "Regex_Exclude": "",
     "Notes": ""
   },
   {
@@ -1194,6 +1250,7 @@
     "Trade_Names": "",
     "Common_Misspellings": "",
     "Regex_Search": "oligofruktose|oligofructose",
+    "Regex_Exclude": "",
     "Notes": "Heat stable. Source lists this separately from Fructooligosaccharides (SW028), also synonym \"FOS\" — the two may be the same/overlapping ingredient under different Danish labels; kept as two entries per source, flagged for review."
   },
   {
@@ -1215,6 +1272,7 @@
     "Trade_Names": "",
     "Common_Misspellings": "",
     "Regex_Search": "galactose|galaktose",
+    "Regex_Exclude": "",
     "Notes": "GI 23."
   },
   {
@@ -1236,6 +1294,7 @@
     "Trade_Names": "",
     "Common_Misspellings": "",
     "Regex_Search": "isomaltulose|palatinose",
+    "Regex_Exclude": "",
     "Notes": "GI 32. Heat stable."
   },
   {
@@ -1257,6 +1316,7 @@
     "Trade_Names": "",
     "Common_Misspellings": "",
     "Regex_Search": "trehalose",
+    "Regex_Exclude": "",
     "Notes": "GI 70. Heat stable."
   }
 ]
