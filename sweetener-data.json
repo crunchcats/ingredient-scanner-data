@@ -986,7 +986,7 @@
     "Trade_Names": "",
     "Common_Misspellings": "",
     "Regex_Search": "sukker|sukrose|saccharose|sucrose|bordsukker|hvidt sukker|råsukker|flormelis|perlesukker|beet sugar|sugar beet syrup|beet syrup|flydende sukker|liquid sugar|fondant|sugar crystals|sugar solids|socker|\\bsugar\\b",
-    "Regex_Exclude": "sukkerarter|sukkerfri|sukkerindhold|sukkeralkohol|sukkerkulør|sukkermajs|sukkerært|blodsukker|(uden|ingen|intet) (tilsat )?sukker|uden tilsætning af sukker|sockerarter|sockerfri|sockeralkohol|sockerkulör|sockermajs|sockerärt|blodsocker|(utan|inget) (tillsatt )?socker|sugar[- ]free|no added sugars?|without added sugars?|blood sugar|sugar alcohols?|sugar snap",
+    "Regex_Exclude": "sukkerarter|sukkera|sukkerfri|sukkerindhold|sukkeralkohol|sukkerkulør|sukkermajs|sukkerært|blodsukker|(uden|ingen|intet) (tilsat )?sukker|uden tilsætning af sukker|sockerarter|sockera|sockerfri|sockeralkohol|sockerkulör|sockermajs|sockerärt|blodsocker|(utan|inget) (tillsatt )?socker|sugar[- ]free|no added sugars?|without added sugars?|blood sugar|sugar alcohols?|sugar snap",
     "Notes": "No dedicated nutrition row in this CSV pass; chemically table sugar (sucrose), typically ~4 kcal/g, GI ~65 — cross-check against the master sweetener list's Sukrose row when that sync runs. GI 65. Heat stable."
   },
   {
