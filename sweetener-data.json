@@ -41,7 +41,7 @@
     "Common_Misspellings": "Aspartam",
     "Regex_Search": "aspartame|aspartam|\\be\\s?951\\b",
     "Regex_Exclude": "",
-    "Notes": "PKU warning. Limited heat stability. CONFLICT: 2026 master CSV lists Sweetness_vs_Sugar=180 (vs 200 here) and Kcal_g=0 (vs 4 here) — not applied, flagged for review."
+    "Notes": "PKU warning. Limited heat stability."
   },
   {
     "ID": "SW003",
@@ -85,7 +85,7 @@
     "Common_Misspellings": "Sacharin",
     "Regex_Search": "saccharin|sakkarin|\\be\\s?954\\b",
     "Regex_Exclude": "",
-    "Notes": "Heat stable. CONFLICT: 2026 master CSV lists Sweetness_vs_Sugar=300 (vs 350 here) — not applied, flagged for review."
+    "Notes": "Heat stable."
   },
   {
     "ID": "SW005",
@@ -138,7 +138,7 @@
     "E_Number": "E958",
     "INS": 958,
     "Category": "Intense",
-    "Synonyms": "Lakrids ekstrakt",
+    "Synonyms": "Lakrids ekstrakt;Lakridsekstrakt",
     "CAS": "",
     "Sweetness_vs_Sugar": 50,
     "Glycemic_Impact": "Low",
@@ -149,7 +149,7 @@
     "EFSA": "Approved",
     "Trade_Names": "",
     "Common_Misspellings": "",
-    "Regex_Search": "glycyrrhizin|\\be\\s?958\\b",
+    "Regex_Search": "glycyrrhizin|\\be\\s?958\\b|lakrids ?ekstrakt",
     "Regex_Exclude": "",
     "Notes": "Heat stable."
   },
@@ -283,7 +283,7 @@
     "Common_Misspellings": "",
     "Regex_Search": "sorbitol|\\be\\s?420\\b",
     "Regex_Exclude": "",
-    "Notes": "Heat stable. CONFLICT: 2026 master CSV lists Sweetness_vs_Sugar=0.55 (vs 0.6 here) — not applied, flagged for review."
+    "Notes": "Heat stable."
   },
   {
     "ID": "SW014",
@@ -415,7 +415,7 @@
     "Common_Misspellings": "Erythritol",
     "Regex_Search": "erythritol|erytritol|\\be\\s?968\\b",
     "Regex_Exclude": "",
-    "Notes": "Heat stable. CONFLICT: 2026 master CSV lists Glycemic_Impact=\"Very Low\" (from \"Meget lav\") vs \"0\" here — not applied, flagged for review."
+    "Notes": "Heat stable."
   },
   {
     "ID": "SW020",
@@ -534,7 +534,7 @@
     "E_Number": "",
     "INS": null,
     "Category": "Fiber",
-    "Synonyms": "Chicory fiber",
+    "Synonyms": "Chicory fiber;Cikoriefiber",
     "CAS": "",
     "Sweetness_vs_Sugar": 0.1,
     "Glycemic_Impact": "Very Low",
@@ -545,7 +545,7 @@
     "EFSA": "",
     "Trade_Names": "",
     "Common_Misspellings": "",
-    "Regex_Search": "inulin|chicory",
+    "Regex_Search": "inulin|chicory|cikoriefiber",
     "Regex_Exclude": "",
     "Notes": "Heat stable."
   },
@@ -622,7 +622,7 @@
     "E_Number": "",
     "INS": null,
     "Category": "Syrup",
-    "Synonyms": "Agavesirup;Agave Syrup;Agave Nectar",
+    "Synonyms": "Agavesirup;Agave Syrup;Agave Nectar;Agave Sweetener",
     "CAS": "",
     "Sweetness_vs_Sugar": 1.4,
     "Glycemic_Impact": "Low",
@@ -633,7 +633,7 @@
     "EFSA": "",
     "Trade_Names": "",
     "Common_Misspellings": "",
-    "Regex_Search": "agavesirup|agave syrup|agave nectar",
+    "Regex_Search": "agavesirup|agave syrup|agave nectar|agave sweetener",
     "Regex_Exclude": "",
     "Notes": "GI 25."
   },
@@ -644,7 +644,7 @@
     "E_Number": "",
     "INS": null,
     "Category": "Syrup",
-    "Synonyms": "Ahornsirup;Maple Syrup",
+    "Synonyms": "Ahornsirup;Maple Syrup;Maple Nectar",
     "CAS": "",
     "Sweetness_vs_Sugar": 1,
     "Glycemic_Impact": "Moderate",
@@ -655,7 +655,7 @@
     "EFSA": "",
     "Trade_Names": "",
     "Common_Misspellings": "",
-    "Regex_Search": "ahornsirup|maple syrup",
+    "Regex_Search": "ahornsirup|maple syrup|maple nectar|sirop d.[eé]rable",
     "Regex_Exclude": "",
     "Notes": "GI 54."
   },
@@ -677,9 +677,9 @@
     "EFSA": "",
     "Trade_Names": "",
     "Common_Misspellings": "",
-    "Regex_Search": "yacon sirup|yacon syrup",
+    "Regex_Search": "yac[oó]n",
     "Regex_Exclude": "",
-    "Notes": "GI 4. CONFLICT: master CSV also lists a \"Yacon Syrup\" row (Naturligt sødestof section) with different figures — sweetness 0.5, Very Low, GI 1, 1.4 kcal/g — vs. this entry's Yacon Sirup figures (0.4, Low, GI 4, 1.5 kcal/g). Not reconciled."
+    "Notes": "GI 4."
   },
   {
     "ID": "SG007",
@@ -688,7 +688,7 @@
     "E_Number": "",
     "INS": null,
     "Category": "Syrup",
-    "Synonyms": "Ris Sirup;Rice Syrup;Brown Rice Syrup;Brun Ris Sirup",
+    "Synonyms": "Ris Sirup;Rice Syrup;Brown Rice Syrup;Brun Ris Sirup;Rice Nectar;Brown Rice Sweetener",
     "CAS": "",
     "Sweetness_vs_Sugar": 0.6,
     "Glycemic_Impact": "High",
@@ -699,7 +699,7 @@
     "EFSA": "",
     "Trade_Names": "",
     "Common_Misspellings": "",
-    "Regex_Search": "ris sirup|rice syrup|brown rice syrup|brun ris sirup",
+    "Regex_Search": "ris sirup|rice syrup|brown rice syrup|brun ris sirup|rice nectar|brown rice sweetener",
     "Regex_Exclude": "",
     "Notes": "GI 98."
   },
@@ -710,7 +710,7 @@
     "E_Number": "",
     "INS": null,
     "Category": "Syrup",
-    "Synonyms": "Daddelsirup;Date Syrup",
+    "Synonyms": "Daddelsirup;Date Syrup;Dadelsirup;Date Nectar",
     "CAS": "",
     "Sweetness_vs_Sugar": 1,
     "Glycemic_Impact": "Moderate",
@@ -721,7 +721,7 @@
     "EFSA": "",
     "Trade_Names": "",
     "Common_Misspellings": "",
-    "Regex_Search": "daddelsirup|date syrup",
+    "Regex_Search": "daddelsirup|date syrup|dadel ?sirup|date nectar|date (fruit |extract )syrup|phoenix dactylifera",
     "Regex_Exclude": "",
     "Notes": "GI 55."
   },
@@ -732,7 +732,7 @@
     "E_Number": "",
     "INS": null,
     "Category": "Syrup",
-    "Synonyms": "Melasse;Molasses;Blackstrap Molasses;Treacle",
+    "Synonyms": "Melasse;Molasses;Blackstrap Molasses;Treacle;Blackstrap",
     "CAS": "",
     "Sweetness_vs_Sugar": 0.7,
     "Glycemic_Impact": "Moderate",
@@ -743,7 +743,7 @@
     "EFSA": "",
     "Trade_Names": "",
     "Common_Misspellings": "",
-    "Regex_Search": "melasse|molasses|blackstrap molasses|treacle",
+    "Regex_Search": "melasse|molasses|blackstrap|treacle",
     "Regex_Exclude": "",
     "Notes": "GI 55."
   },
@@ -864,7 +864,7 @@
     "E_Number": "",
     "INS": null,
     "Category": "Sugar",
-    "Synonyms": "Dadelsukker;Date Sugar",
+    "Synonyms": "Dadelsukker;Date Sugar;Date Powder;Dadelpulver;Date Crystals;Date Granules;Ground Dates;Date Sweetener",
     "CAS": "",
     "Sweetness_vs_Sugar": 1,
     "Glycemic_Impact": "Moderate",
@@ -875,7 +875,7 @@
     "EFSA": "",
     "Trade_Names": "",
     "Common_Misspellings": "",
-    "Regex_Search": "dadelsukker|date sugar",
+    "Regex_Search": "dadelsukker|date sugar|date (fruit )?powder|dadelpulver|date crystals|date granules|ground dates|date (fruit )?sweetener",
     "Regex_Exclude": "",
     "Notes": "GI 55."
   },
@@ -886,7 +886,7 @@
     "E_Number": "",
     "INS": null,
     "Category": "Sugar",
-    "Synonyms": "Rørsukker;Cane Sugar;Raw Cane Sugar;Cane Juice;Evaporated Cane Juice;Cane Juice Crystals;Raw Cane Juice;Evaporated Cane Syrup",
+    "Synonyms": "Rørsukker;Cane Sugar;Raw Cane Sugar;Cane Juice;Evaporated Cane Juice;Cane Juice Crystals;Raw Cane Juice;Evaporated Cane Syrup;Jaggery;Rapadura;Piloncillo;Cane Crystals",
     "CAS": "",
     "Sweetness_vs_Sugar": 1,
     "Glycemic_Impact": "Moderate",
@@ -897,7 +897,7 @@
     "EFSA": "",
     "Trade_Names": "",
     "Common_Misspellings": "",
-    "Regex_Search": "rørsukker|cane sugar|cane juice|evaporated cane (juice|syrup)",
+    "Regex_Search": "rørsukker|cane sugar|cane juice|evaporated cane (juice|syrup)|jaggery|\\bpanela\\b|rapadura|piloncillo|cane crystals",
     "Regex_Exclude": "",
     "Notes": "GI 65."
   },
@@ -908,7 +908,7 @@
     "E_Number": "",
     "INS": null,
     "Category": "Sugar",
-    "Synonyms": "Muscovado",
+    "Synonyms": "Muscovado;Mascobado",
     "CAS": "",
     "Sweetness_vs_Sugar": 1,
     "Glycemic_Impact": "Moderate",
@@ -919,7 +919,7 @@
     "EFSA": "",
     "Trade_Names": "",
     "Common_Misspellings": "",
-    "Regex_Search": "muscovado",
+    "Regex_Search": "muscovado|mascobado",
     "Regex_Exclude": "",
     "Notes": "GI 65."
   },
@@ -998,7 +998,7 @@
     "Category": "Sugar",
     "Synonyms": "Glukose;Glucose;Dextrose;Druesukker;Corn Dextrose;Dextrose Monohydrate;Anhydrous Dextrose;Glucose Solids;Liquid Glucose",
     "CAS": "",
-    "Sweetness_vs_Sugar": null,
+    "Sweetness_vs_Sugar": 0.7,
     "Glycemic_Impact": "High",
     "Kcal_g": 4,
     "Keto": "No",
@@ -1009,7 +1009,7 @@
     "Common_Misspellings": "",
     "Regex_Search": "glukose|glucose|dextrose|druesukker|glucose solids|liquid glucose",
     "Regex_Exclude": "",
-    "Notes": "No dedicated nutrition row in this CSV pass; see the master sweetener list's Glukose/Dextrose rows for reference values (note: those two rows use different figures for what's chemically the same sugar — flagged, not reconciled here). GI 100. CONFLICT: source gives two sweetness values for this merged entry — Glukose=0.7, Dextrose=1.15 (GI and kcal/g agree at 100 and 4). Sweetness_vs_Sugar left blank pending a decision (e.g. split into two entries)."
+    "Notes": "Glucose and dextrose are the same sugar. GI 100."
   },
   {
     "ID": "SG022",
