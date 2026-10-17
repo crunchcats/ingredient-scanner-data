@@ -611,7 +611,7 @@
     "EFSA": "",
     "Trade_Names": "",
     "Common_Misspellings": "",
-    "Regex_Search": "hfcs|high[- ]fructose corn syrup|isoglucose|isoglukose|majsfruktosesirup|fructose-glucose syrup|glucose-fructose (syrup|sirup)|fruktose-glukose ?sirup|glukose-fruktose ?sirup",
+    "Regex_Search": "hfcs|high[- ]fructose corn syrup|isoglucose|isoglukose|majsfruktosesirup|fructose-glucose[- ]syrup|glucose-fructose[- ](syrup|sirup)|fruktose-glukose[- ]?sirup|glukose-fruktose[- ]?sirup",
     "Regex_Exclude": "",
     "Notes": "GI 80."
   },
@@ -809,7 +809,7 @@
     "EFSA": "",
     "Trade_Names": "",
     "Common_Misspellings": "",
-    "Regex_Search": "kløverhonning|clover honey",
+    "Regex_Search": "kl[øo]verhonning|clover honey",
     "Regex_Exclude": "",
     "Notes": "GI 70."
   },
@@ -897,7 +897,7 @@
     "EFSA": "",
     "Trade_Names": "",
     "Common_Misspellings": "",
-    "Regex_Search": "rørsukker|cane sugar|cane juice|evaporated cane (juice|syrup)|jaggery|\\bpanela\\b|rapadura|piloncillo|cane crystals",
+    "Regex_Search": "r[øo]rsukker|cane sugar|cane juice|evaporated cane (juice|syrup)|jaggery|\\bpanela\\b|rapadura|piloncillo|cane crystals",
     "Regex_Exclude": "",
     "Notes": "GI 65."
   },
@@ -985,8 +985,8 @@
     "EFSA": "",
     "Trade_Names": "",
     "Common_Misspellings": "",
-    "Regex_Search": "sukker|sukrose|saccharose|sucrose|bordsukker|hvidt sukker|råsukker|flormelis|perlesukker|beet sugar|sugar beet syrup|beet syrup|flydende sukker|liquid sugar|fondant|sugar crystals|sugar solids|socker|\\bsugar\\b",
-    "Regex_Exclude": "sukkerarter|sukkera|sukkerfri|sukkerindhold|sukkeralkohol|sukkerkulør|sukkermajs|sukkerært|blodsukker|(uden|ingen|intet) (tilsat )?sukker|uden tilsætning af sukker|sockerarter|sockera|sockerfri|sockeralkohol|sockerkulör|sockermajs|sockerärt|blodsocker|(utan|inget) (tillsatt )?socker|sugar[- ]free|no added sugars?|zero sugars?|sugar zero|no sugars?|0 ?% ?sugars?|(nul|zero|0 ?%) sukker|(noll|zero|0 ?%) socker|without added sugars?|blood sugar|sugar alcohols?|sugar snap",
+    "Regex_Search": "sukker|sukrose|saccharose|sucrose|bordsukker|hvidt sukker|r[åa]sukker|flormelis|perlesukker|beet sugar|sugar beet syrup|beet syrup|flydende sukker|liquid sugar|fondant|sugar crystals|sugar solids|socker|\\bsugar\\b",
+    "Regex_Exclude": "sukkerarter|sukkera|sukkerfri|sukkerindhold|sukkeralkohol|sukkerkulør|sukkermajs|sukkerært|blodsukker|(uden|ingen|intet) (tilsat )?sukker|uden tilsætning af sukker|sockerarter|sockera|sockerfri|sockeralkohol|sockerkulör|sockermajs|sockerärt|blodsocker|(utan|inget) (tillsatt )?socker|sugar[- ]free|no added sugars?|zero( [a-z]{1,4}){0,2} sugars?|sugar zero|no sugars?|0 ?% ?sugars?|(nul|zero|0 ?%)[.,:!]? ?sukker|(noll|zero|0 ?%)[.,:!]? ?socker|without added sugars?|blood sugar|sugar alcohols?|sugar snap",
     "Notes": "No dedicated nutrition row in this CSV pass; chemically table sugar (sucrose), typically ~4 kcal/g, GI ~65 — cross-check against the master sweetener list's Sukrose row when that sync runs. GI 65. Heat stable."
   },
   {
@@ -1128,7 +1128,7 @@
     "E_Number": "",
     "INS": null,
     "Category": "Syrup",
-    "Synonyms": "Cane Syrup;Sugar Syrup;Sweetening Syrup;Caramelised Sugar;Karamelliseret Sukker;Caramel Syrup;Karamelsirup;Bakers Syrup;Bagerisirup",
+    "Synonyms": "Cane Syrup;Sugar Syrup;Sukkersirup;Sweetening Syrup;Caramelised Sugar;Karamelliseret Sukker;Caramel Syrup;Karamelsirup;Bakers Syrup;Bagerisirup",
     "CAS": "",
     "Sweetness_vs_Sugar": null,
     "Glycemic_Impact": "",
@@ -1139,8 +1139,8 @@
     "EFSA": "",
     "Trade_Names": "",
     "Common_Misspellings": "",
-    "Regex_Search": "cane syrup|sugar syrup|sweetening syrup|caramelised sugar|karamelliseret sukker|caramel syrup|karamelsirup|bakers syrup|bagerisirup",
-    "Regex_Exclude": "",
+    "Regex_Search": "cane syrup|sugar syrup|sukkersirup|sweetening syrup|caramelised sugar|karamelliseret sukker|caramel syrup|karamelsirup|bakers syrup|bagerisirup",
+    "Regex_Exclude": "invertsukkersirup",
     "Notes": "Catch-all for generic/unspecified sugar-syrup labels with no dedicated nutrition row. Bare \"Sirup\"/\"Syrup\" are deliberately not listed anywhere: the apps match Synonyms as substrings, so either would flag every syrup on every label. \"Sweetener Blend\" removed for the same reason: it names intense-sweetener blends as often as sugar ones."
   },
   {
