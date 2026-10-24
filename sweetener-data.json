@@ -281,8 +281,8 @@
     "EFSA": "Approved",
     "Trade_Names": "",
     "Common_Misspellings": "",
-    "Regex_Search": "sorbitol|\\be\\s?420\\b",
-    "Regex_Exclude": "",
+    "Regex_Search": "sorbit|\\be\\s?420\\b",
+    "Regex_Exclude": "sorbitan",
     "Notes": "Heat stable."
   },
   {
@@ -303,7 +303,7 @@
     "EFSA": "Approved",
     "Trade_Names": "",
     "Common_Misspellings": "",
-    "Regex_Search": "mannitol|\\be\\s?421\\b",
+    "Regex_Search": "mannit|\\be\\s?421\\b",
     "Regex_Exclude": "",
     "Notes": "Heat stable."
   },
@@ -347,7 +347,7 @@
     "EFSA": "Approved",
     "Trade_Names": "",
     "Common_Misspellings": "",
-    "Regex_Search": "maltitol|\\be\\s?965\\b",
+    "Regex_Search": "maltit|\\be\\s?965\\b",
     "Regex_Exclude": "",
     "Notes": "Heat stable."
   },
@@ -369,7 +369,7 @@
     "EFSA": "Approved",
     "Trade_Names": "",
     "Common_Misspellings": "",
-    "Regex_Search": "lactitol|\\be\\s?966\\b",
+    "Regex_Search": "lactit|\\be\\s?966\\b",
     "Regex_Exclude": "",
     "Notes": "Heat stable."
   },
@@ -391,7 +391,7 @@
     "EFSA": "Approved",
     "Trade_Names": "",
     "Common_Misspellings": "",
-    "Regex_Search": "xylitol|\\be\\s?967\\b",
+    "Regex_Search": "xylit|\\be\\s?967\\b",
     "Regex_Exclude": "",
     "Notes": "Heat stable."
   },
@@ -413,7 +413,7 @@
     "EFSA": "Approved",
     "Trade_Names": "Sukrin",
     "Common_Misspellings": "Erythritol",
-    "Regex_Search": "erythritol|erytritol|\\be\\s?968\\b",
+    "Regex_Search": "eryth?rit|\\be\\s?968\\b",
     "Regex_Exclude": "",
     "Notes": "Heat stable."
   },
